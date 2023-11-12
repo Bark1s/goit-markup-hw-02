@@ -34,14 +34,14 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.logo-web {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42;
 }
 
 .menu .link {
@@ -52,10 +52,13 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contacts .link {
+.contacts {
+  font-style: normal;
+}
+
+.contacts-list .link {
   color: inherit;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -79,6 +82,10 @@ body {
   cursor: pointer;
   color: #fff;
   background-color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 /* benefits */
@@ -112,6 +119,10 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.team-list-item {
+  background-color: #fff;
 }
 
 .teammate-name {
@@ -156,9 +167,13 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-studio-footer {
   color: #f4f4fd;
 }
 
